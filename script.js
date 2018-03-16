@@ -1,5 +1,5 @@
 function drawTree (treeHeight) {
-for(let i=0; i<treeHeight; i++){
+for(let i=1; i<treeHeight+1; i++){
   var star = "";
   for(let j=i; j<treeHeight; j++){
     star += " ";
